@@ -38,6 +38,7 @@ function weatherFunction() {
         //Maybe these modifiers should be 2 instead of 1 to make sure the weather doesn't go from blue skies to rainstorms too easily
     } else {
         modW = 0;
+        var test = 123;
     }
     //If sunny/rainy the chance is for similar weather is increased, though not for stormy and "blue skies" 
     var nowW = Math.floor(Math.random() * wTable.length + 1) + modW;
